@@ -1,0 +1,17 @@
+{
+  "name": "minemind_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  }, 
+  "scripts": {
+    "start": "nodemon  server/index.js --exec babel-node --presets env"
+  }
+}
